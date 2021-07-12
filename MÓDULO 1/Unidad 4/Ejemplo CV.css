@@ -1,0 +1,60 @@
+#titulo {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 28px;
+    color: blanchedalmond;
+    background-color: black;
+    width: 500px;
+    height: 80px;
+    text-align: center;
+}
+
+#foto {
+        background-color: white;
+    margin-top: 1cm;
+    margin-bottom: 1cm;
+    margin-left: 2cm;
+    margin-right: 2cm;
+}
+
+.contacto {
+    color: blanchedalmond;
+    background-color: black;
+    width: 500px;
+    height: 20px;
+}
+
+.contacto:hover {
+    background-color: coral;
+}
+
+#datos {
+    color: gray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+    }
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+}
+
+#listas {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    color: blanchedalmond;
+    background-color: black;
+    width: 500px;
+    height: 300px;
+    text-align: center;
+}
+
+#perfil {
+    color: gray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.resaltador {
+    font-style: italic;
+    font-weight: bold;
+    color: darkcyan;
+}
+
