@@ -1,0 +1,27 @@
+.rojo {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    background: red;
+    margin-bottom: 50px;
+    margin-left: 20px;
+    color: white;
+    padding: 20px;
+    /*padding_top: 20px;*/
+    /*padding: 5px 10px 15px 16px; */
+    border: 5px solid black;
+    box-sizing: border-box;
+    
+    }
+
+.azul {
+    width: 200px;
+    height: 200px;
+    background: blue;
+    padding: 20px;
+    box-sizing: border-box;
+    color: white;
+    border-radius: 0px 20px;
+    box-shadow: 15px 10px 5px turquoise; /* eje x, eje Y, blur, color, cuando se pone el número en negativo la sombra se va al lado opuesto*/
+
+}

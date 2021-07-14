@@ -1,0 +1,14 @@
+/*font-family: 'Open Sans', sans-serif;
+font-family: 'Otomanopee One', sans-serif;*/
+
+h1, h2 {
+    font-family: 'Otomanopee One', sans-serif
+}
+
+h2 {
+    color: blueviolet;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+}

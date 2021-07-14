@@ -1,0 +1,61 @@
+#titulo {
+    font-family: 'Tourney', cursive;
+    font-size: 28px;
+    color: blanchedalmond;
+    background-color: black;
+    width: 600px;
+    height: 80px;
+    text-align: center;
+    box-shadow: 11px 11px 5px -1px rgba(0,0,0,0.56);
+}
+
+#foto {
+    margin: 30px 20px 30px 100px;
+    
+}
+
+.contacto {
+    color: blanchedalmond;
+    background-color: black;
+    width: 600px;
+    height: 30px;
+    box-shadow: #888, 5px;
+}
+
+.contacto:hover {
+    background-color: coral;
+}
+
+
+body {
+        background: #ccc;
+  }
+  
+  .card {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 16px;
+    background: white;
+    padding: 30px;
+    border-radius: 20px;
+    margin: 20px 10px 20px 10px;
+  }
+  
+  .card h2 {
+    font-family: 'Acme', sans-serif
+    font-size: 22px;
+  }
+  
+  .card h3 {
+    font-family: 'Acme', sans-serif
+    font-size: 22px;
+  }
+
+.resaltador {
+    font-style: italic;
+    font-weight: bold;
+    color: darkcyan;
+}
+
+/*font-family: 'Acme', sans-serif;
+font-family: 'Open Sans Condensed', sans-serif;
+font-family: 'Tourney', cursive;*/
