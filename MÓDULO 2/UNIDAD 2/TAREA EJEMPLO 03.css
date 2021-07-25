@@ -1,0 +1,46 @@
+.contenedor{
+	border:3px solid black;
+	background-color: white;
+	height: 100px;
+	display: flex;
+	justify-content:space-between;
+    }
+
+    #uno {
+        height:100px;
+        width: 100px;
+        background-color: rgb(190, 50, 50);
+        color: white;
+        font-size: large;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        
+                }
+    
+    #dos{
+        height:100px;
+        width: 100px;
+        background-color: blue;
+        color: white;
+        font-size: large;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        
+        }
+    
+    #tres{
+        height:100px;
+        width: 100px;
+        background-color: green;
+        color: white;
+        font-size: large;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        
+        }
