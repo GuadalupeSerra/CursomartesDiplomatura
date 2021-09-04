@@ -1,0 +1,241 @@
+
+/*font-family: 'Gloria Hallelujah', cursive;
+font-family: 'Montserrat', sans-serif;*/
+
+header {
+    background-color: white;
+    padding: 1em 0;
+    text-align: center;
+}
+
+#col1 {
+    
+    background-color: #e72048;
+    color: #e72048;
+}
+
+
+#col2 {
+    background-color: #50eda1;
+    color: #50eda1;
+   }
+
+#col3 {
+   background-color: #e3b7d7;
+   color: #e3b7d7;
+}
+
+
+
+nav {
+    background-color: #e3b7d7;
+    max-width: 1440px;
+    }
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    
+    }
+
+nav ul li {
+    display: inline-block;
+    width: 16.3%;
+    
+    }
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    padding: 0.2em 0.4em;
+    font-family: 'Montserrat regular 400', sans-serif;
+    font-size: 20px;
+    
+    }
+
+
+
+nav ul li a:hover {
+    background-color: #e72048;
+    color: white;
+}
+
+
+footer {
+    background-color: #50eda1;
+    clear: both;
+    color: white;
+    padding: 1em 1em;
+    margin-top: 2em;
+    text-align: right;
+
+}
+
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+
+@media (max-width: 767px) {
+ 
+nav ul li a {
+   font-size: 14px;
+  }
+  nav ul li {
+    display: inline-block;
+    width: 22%;
+    }
+}
+
+/*Inicio Nosotros*/
+
+.box {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f7f7f7;
+  }
+  
+  .section-heading {
+    font-family: 'Gloria Hallelujah', cursive;
+    text-align: center;
+    font-size: 40px;
+    color: #50eda1;
+    margin: 0 0 30px;
+  }
+  
+  .box2 {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+  
+  .profile {
+    position: relative;
+    transition: all 0.3s;
+  }
+  
+  .profile:hover {
+    transform: translateY(25px);
+  }
+  
+  .profile img {
+    max-width: 70%;
+    border-radius: 50%;
+    border: 5px solid #f7f7f7;
+    filter: drop-shadow(-20px 0 10px rgba(0, 0, 0, 0.1));
+    cursor: pointer;
+  }
+
+  .profile:not(:first-child) img {
+    margin-left: -20px;
+  }
+  
+  .profile .name {
+    position: absolute;
+    background-color: #10996d;
+    color: #fff;
+    font-family: "Bebas Neue", cursive;
+    padding: 15px 30px;
+    border-radius: 100px;
+    bottom: -80px; left: 50%;
+    white-space: nowrap;
+    transform: translate(-50%, -50px);
+    letter-spacing: 1px;
+    font-size: 20px;
+    opacity: 0;
+    transition: all 0.3s;
+  }
+  
+  .profile .name::before {
+    content: "";
+    position: absolute;
+    width: 15px; height: 15px;
+    background-color: #10996d;
+    top: 0; left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+  }
+  
+  .profile img:hover + .name {
+    opacity: 1;
+    transform: translateX(-50%);
+    box-shadow: 0 10px 20px rgba(86, 86, 198, 0.3);
+  }
+
+  /*Fin Nosotros*/
+
+ /* Inicio Productos*/
+
+
+
+.box3 {
+  box-sizing: border-box;
+  height: 100vh;
+  margin: 0;
+  padding: 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  place-content: center;
+  font-family: system-ui;
+  
+}
+
+.card {
+  font-size: 23px;
+  background: white;
+  padding: 30px;
+  border-radius: 20px;
+}
+  /*Fin Productos*/
+
+
+/*Inicio Index*/
+
+.box4 {
+  margin: 0;
+  justify-content: center;
+  align-items: center;
+  background-color: #f7f7f7;
+  text-align: center;
+  
+}
+
+.card1 {
+  font-size: 20px;
+  background: white;
+  padding: 40px;
+  border-radius: 20px;
+}
+
+h2{
+  font-family: 'Gloria Hallelujah', cursive
+}
+
+/*Fin Index*/
+
+/*Inicio Contacto*/
+.box5 {
+  margin: 0;
+  justify-content: center;
+  align-items: center;
+  background-color: #f7f7f7;
+  text-align: center;
+  margin-top: 2em;
+  font-family: 'Montserrat', sans-serif
+}
+/*Fin Contacto*/
