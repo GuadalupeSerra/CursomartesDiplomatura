@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<script>
+//Ejericio 1
+//Crear el código que dada una distancia determine el medio de transporte apropiado de acuerdo a las siguientes reglas:
+//0 a 1000 metros = pie
+//1000 a 10000 metros = bicicleta
+//10000 a 30000 metros = colectivo
+//30000 a 100000 metros = auto
+//+100000 = avion
+var metros;
+var transporte;
+
+	metros=prompt('Ingrese la distancia de su viaje en metros:','');
+	
+
+var transporte = ' ';
+
+if (metros >= 100000 ) {
+    transporte = 'Avión';
+    document.write(' Para esa cantidad de metros le conviene viajar en '+ transporte);
+} else if (metros >= 30000) {
+    transporte = 'Auto';
+    document.write(' Para esa cantidad de metros le conviene viajar en '+ transporte);
+} else if (metros >= 10000) {
+    transporte = 'Colectivo';
+    document.write(' Para esa cantidad de metros le conviene viajar en '+ transporte);
+} else if (metros >= 1000) {
+    transporte = 'Bicicleta';
+    document.write(' Para esa cantidad de metros le conviene viajar en '+ transporte);
+} else {
+    transporte = 'Pie'
+    document.write(' Para esa cantidad de metros le conviene viajar en '+ transporte);
+}
+
+</script>
+
+<script>
+//Ejericio 2
+//Crear el código que reciba como parámetro un array de números y devuelva el mayor.
+</script>
+
+</body>
+</html>
