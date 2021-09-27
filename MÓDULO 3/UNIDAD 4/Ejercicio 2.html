@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <textarea name="message" onkeyup="countChars(this);"></textarea>
+<p id="charNum">0 characters</p>
+
+    <script>
+//Ejercicio 2: Programar un contador de caracteres para un textarea.
+function countChars(obj){
+    var maxLength = 20;
+    var strLength = obj.value.length;
+    
+    if(strLength > maxLength){
+        document.getElementById("charNum").innerHTML = '<span style="color: red;">'+strLength+' out of '+maxLength+' characters</span>';
+    }else{
+        document.getElementById("charNum").innerHTML = strLength+' out of '+maxLength+' characters';
+    }
+}
+    </script>
+
+</body>
+</html>
+
+
+
+
