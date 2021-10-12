@@ -1,0 +1,44 @@
+
+header {
+    background-color: white;
+    padding: 1em 0;
+    width: 100%;
+    text-align: center;
+        }
+
+.logo {
+    padding: 1em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
+    }
+
+.line1 {
+    
+    background-color: #e72048;
+    color: #e72048;
+    max-width: 1440px;
+    text-align: center;
+    width: 800%
+}
+
+
+.line2 {
+    background-color: #50eda1;
+    color: #50eda1;
+    max-width: 1440px;
+    text-align: center;
+    width: 800%
+   }
+
+.line3 {
+   background-color: #e3b7d7;
+   color: #e3b7d7;
+   max-width: 1440px;
+   text-align: center;
+   width: 800%
+
+}
+
+

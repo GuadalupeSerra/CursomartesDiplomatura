@@ -1,0 +1,25 @@
+*Inicio Index*/
+body {
+  text-align: center;
+}
+
+.box4 {
+  margin: 0;
+  justify-content: center;
+  align-items: center;
+  background-color: #f7f7f7;
+  text-align: center;
+  }
+
+.card1 {
+  font-size: 20px;
+  background: white;
+  padding: 40px;
+  border-radius: 20px;
+}
+
+h2{
+  font-family: 'Gloria Hallelujah', cursive
+}
+
+/*Fin Index*/
