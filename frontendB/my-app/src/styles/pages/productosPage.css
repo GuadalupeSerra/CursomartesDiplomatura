@@ -1,0 +1,22 @@
+/* Inicio Productos*/
+
+.box3 {
+    box-sizing: border-box;
+    height: 100vh;
+    margin: 0;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    place-content: center;
+    font-family: system-ui;
+    
+  }
+  
+  .card {
+    font-size: 23px;
+    background: white;
+    padding: 20px;
+    border-radius: 20px;
+  }
+    /*Fin Productos*/
